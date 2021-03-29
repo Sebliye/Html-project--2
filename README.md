@@ -1,7 +1,7 @@
 # Html-project--2
 Project requirement:
 Multipage application using html, css, javascript
-1. you have 3 pages home, table list, about us
+1. you have 3 pages home,add form, table list, about us
 2. use formatting tags like <b>,<em>,<strong>
 3. Image for the home page 
 4. vedio for the about page
