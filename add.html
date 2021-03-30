@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta content="html,css,javascript web design">
+          <title>html-project 2</title>
+          <link rel="stylesheet" href="style.css">
+     </head>
+
+     <body id="container">
+          <div>
+                <header>
+               <nav>
+                    <a href="home.html" id="home">Coeffe</a>
+                    <a href="add.html">Add</a>
+                    <a href="list.html">List</a>
+                    <a href="about.html">About</a>
+               </nav>
+          </header>
+
+
+          <div>
+               <form>
+                    <br><br>
+                    <label>Coeffe Name</label>
+                    <input type="text" name="name" id="name"><br><br>
+                    <label>Coeffe Type</label>
+                    <input type="text" id="type"><br><br>
+                    <label>Price</label>
+                    <input type="number" id="price"><br><br>
+                    <label>Location</label>
+                    <input type="text" id="location"><br><br>
+                    <button type="submit">Add</button>
+               </form>
+          </div>
+
+
+          <script>
+
+               let click=document.getElementsByTagName('button')
+                    click.add
+               function submit(e){
+                    e.preventDefault()
+                     let coeffe=[
+                    {
+                         CoeffeName:document.getElementById('name').value,
+                         CoeffeType:document.getElementById('type').value,
+                         price:document.getElementById('price').value,
+                         location:document.getElementById('location').value
+
+                    }
+               ]
+               console.log(coeffe)
+               }
+               submit();
+              
+
+          </script>
+
+          <footer>Contact us with Coeffe@gmail.com</footer>
+
+          </div>
+        
+     </body>
+</html>
