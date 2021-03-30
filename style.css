@@ -1,0 +1,90 @@
+#container{
+    
+}
+
+*{
+     color:black
+}
+
+header{
+    font-size: 30px;
+    background-color: red;
+    padding-bottom:50px;
+}
+
+
+ #home{
+  position:fixed;
+  left: 1;
+}
+
+a {
+  float: right;
+  margin:10px
+}
+
+footer{
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  bottom:0;
+  background-color: red;
+  left: 0;
+  width: 100%;
+}
+
+#image{
+     position: relative;
+     top: 0;
+}
+
+form{
+  border-width: 1px;
+  border-style: dashed;
+  text-align: center;
+  padding:0px;
+  background-color: rgb(106, 169, 190);
+  font-size: 20px;
+  width: 500px;
+}
+
+input{
+     padding:10px;
+     text-align: center;
+     padding-top: 2px;
+     margin-top:10px;
+}
+button{
+     width: 100px;
+     height: 40px;
+     font-size:30px;
+}
+form button{
+     color: white;
+     background-color: crimson;
+}
+
+ * #about{
+     font-size: 20px;
+      padding: 30px;
+}
+section{
+    
+     background-color: cyan;
+     border-width: 3px;
+     border-style: dashed;
+}
+
+article{
+     background-color:darkorchid;
+     border-width: 3px;
+     border-style: dotted;
+}
+video{
+     margin-left: auto;
+     margin-right: auto;
+     display: block;
+     
+}
+
+
